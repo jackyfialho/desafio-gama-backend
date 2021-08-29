@@ -7,7 +7,7 @@ const app = express();
 const cors = require("cors");
 
 mongoose.connect(
-  "mongodb+srv://dbMirella:Mg874515@cluster0.073yy.mongodb.net/Cluster0?retryWrites=true&w=majority",
+  "mongodb+srv://dbMirella:Mg874515@cluster0.073yy.mongodb.net/DesafioGamaDb?retryWrites=true&w=majority",
   {
     useNewUrlParser: true,
     useCreateIndex: true,
